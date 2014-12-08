@@ -10,11 +10,14 @@
 .gallery .control-button {
   color: #ccc;
   color: rgba(255, 255, 255, 0.4);
+  transform: scale(.5);  
+  transition: transform 1s;
 }
 
 .gallery .control-button:hover {
   color: white;
   color: rgba(255, 255, 255, 0.8);
+  transform: scale(1) rotate(135deg);
 }
 
 /*
